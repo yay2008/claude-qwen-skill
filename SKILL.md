@@ -1,6 +1,6 @@
 ---
 name: cc-pilot
-description: Claude Code pilots coding tasks by analyzing requirements and designing solutions, then dispatching a partner AI (Qwen or Codex) to execute code changes via headless CLI. Use when user invokes /cc-pilot followed by a coding task. Supports --qwen and --codex backend flags. Triggers on any development task including feature development, bug fixes, refactoring, and code optimization. Claude handles analysis, prompt construction, and code review; the chosen backend handles execution.
+description: Claude Code pilots coding tasks by analyzing requirements and designing solutions, then dispatching a partner AI (Qwen or Codex) to execute code changes via headless CLI. Use when user mentions Qwen or Codex in a coding context, such as "让Qwen做", "交给Qwen", "用Codex执行", "Codex帮我", "让Qwen改一下", "Qwen来写", "用Codex重构". Also triggers via /cc-pilot slash command. Supports --qwen and --codex backend flags for backend selection. Claude handles analysis, prompt construction, and code review; the chosen backend handles execution.
 ---
 
 # CC Pilot: Claude Analyzes, Partner AI Executes
